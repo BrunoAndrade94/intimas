@@ -1,0 +1,21 @@
+:root {
+  /* --cor-principal: #d8595a; */
+  /* --cor-principal: #8e00a3; */
+  --cor-principal-lilas: #ee82ee;
+  /* --cor-principal: #8a2be2; */
+  --cor-secundaria-roxa: #8a2be2;
+  /* --cor-secundaria: #f6bb92; */
+
+  --cor-branca-padrao: #fff;
+
+  --border-radius: 10px;
+  --rgba-black1: rgba(0, 0, 0, 0.1);
+  --rgba-black2: rgba(0, 0, 0, 0.2);
+  --rgba-black3: rgba(0, 0, 0, 0.3);
+  --rgba-black4: rgba(0, 0, 0, 0.4);
+  --rgba-black5: rgba(0, 0, 0, 0.5);
+  --rgba-black6: rgba(0, 0, 0, 0.6);
+  --rgba-black7: rgba(0, 0, 0, 0.7);
+  --rgba-black8: rgba(0, 0, 0, 0.8);
+  --rgba-black9: rgba(0, 0, 0, 0.9);
+}

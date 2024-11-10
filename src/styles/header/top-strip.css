@@ -1,0 +1,9 @@
+.top-strip {
+  padding: 8px 0px;
+}
+
+.top-strip p {
+  color: var(--cor-branca-padrao);
+  font-size: 12px;
+  font-weight: 500;
+}
