@@ -19,10 +19,10 @@ const Header = () => {
               <TextBox placeHolder={PESQUISAR_PRODUTO} icon={"search"} />
               <UserBox />
             </div>
-            <Navigation />
           </div>
         </div>
       </div>
+      <Navigation />
     </header>
   );
 };

@@ -1,11 +1,16 @@
 import AllCategories from "./AllCategories";
+import ListCategories from "./ListCategories";
 
 const Navigation = () => {
   return (
     <nav className="navigation">
       <div className="row">
-        <AllCategories />
-        <div className="nav2 col-sm-9"></div>
+        <div className="container mt-4">
+          <div className="row">
+            <AllCategories />
+            <ListCategories />
+          </div>
+        </div>
       </div>
     </nav>
   );

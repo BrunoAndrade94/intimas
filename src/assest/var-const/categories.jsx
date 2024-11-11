@@ -1,64 +1,53 @@
-export const TIPOS_CATEGORIAS = {
-  home: "Início",
-  promocao: "Promoção",
-  conjuntos: "Conjuntos",
-  calcinhas: "Calcinhas",
-  sutias: "Sutiãs",
-  maisVendidos: "Mais Vendidos",
-  modaPraia: "Moda Praia",
-  modaSex: "Moda Sex",
-  contato: "Contato",
+export const CATEGORIA_SUTIA = {
+  name: "sutiã",
+  icon: "sutia",
+  goTo: "/",
+  categories: ["pequeno", "medio", "grande", "magra", "gorda"],
 };
 
-export const CATEGORIAS_SUTIA = [
-  "sutia",
-  "pequeno",
-  "medio",
-  "grande",
-  "pra magra",
-  "pra gorda",
-];
+export const CATEGORIA_PROMOCAO = {
+  name: "promoção",
+  icon: "promo",
+  goTo: "/",
+  categories: ["pequeno", "medio", "grande", "magra", "gorda"],
+};
 
-export const CATEGORIAS_MODA_PRAIA = [
-  "moda praia",
-  "praia",
-  "varios",
-  "tipos",
-  "de",
-  "moda",
-  "praia",
-];
+export const CATEGORIA_MODA_PRAIA = {
+  name: "moda praia",
+  icon: "modaPraia",
+  goTo: "/",
+  categories: ["pequeno", "medio", "grande", "magra", "gorda"],
+};
 
-export const CATEGORIAS_CONJUTOS = [
-  "Conjuntos",
-  "varios",
-  "tipos",
-  "de",
-  "conjuntos",
-];
+export const CATEGORIA_CONJUTOS = {
+  name: "conjuntos",
+  icon: "conjunto",
+  goTo: "/",
+  categories: ["pequeno", "medio", "grande", "magra", "gorda"],
+};
 
-export const CATEGORIAS_MAIS_VENDIDOS = [
-  "Mais Vendidos",
-  "shop",
-  "Sutiã",
-  "Bikini",
-  "Moda Praia",
-];
+export const CATEGORIA_MAIS_VENDIDOS = {
+  name: "mais vendidos",
+  icon: "maisVendidos",
+  goTo: "/",
+  categories: ["pequeno", "medio", "grande", "magra", "gorda"],
+};
 
-export const CATEGORIAS_CONTATO = [
-  "contato",
-  "contact",
-  "varios",
-  "tipos",
-  "de",
-  "contato",
-];
+export const CATEGORIA_CONTATO = {
+  name: "contato",
+  icon: "contato",
+  goTo: "/",
+  categories: ["Whatsapp", "Instagram", "Facebook", "Telefone"],
+};
 
-export const CATEGORIAS_MENU = [
-  "todas categorias",
-  "list",
-  "varios",
-  "tipos",
-  "de",
-  "contato",
-];
+export const TIPOS_CATEGORIAS = {
+  home: "Início",
+  sutias: CATEGORIA_SUTIA.name,
+  contato: CATEGORIA_CONTATO.name,
+  promocao: CATEGORIA_PROMOCAO.name,
+  conjuntos: CATEGORIA_CONJUTOS.name,
+  modaPraia: CATEGORIA_MODA_PRAIA.name,
+  maisVendidos: CATEGORIA_MAIS_VENDIDOS.name,
+  // modaSex: "Moda Sex",
+  // calcinhas: "Calcinhas",
+};

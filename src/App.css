@@ -23,5 +23,41 @@ body {
 }
 
 .container {
-  max-width: 94%;
+  max-width: 93%;
+}
+
+.valor-e-prazo {
+  margin-bottom: 2%;
+}
+
+.sub-category {
+  font-size: 30px;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  min-width: 300px;
+}
+
+.categories svg {
+  margin-right: 10px;
+  font-size: 20px;
+  color: var(--cor-secundaria-roxa);
+}
+
+.categories .categories-name {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.list-categories {
+  display: flex;
+}
+
+.category {
+  margin-right: 1rem;
+}
+
+.menu-item:focus {
+  color: var(--cor-secundaria-roxa);
+  font-weight: 800;
 }
