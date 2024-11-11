@@ -21,3 +21,7 @@ body {
 .background-principal {
   background: var(--cor-principal-lilas);
 }
+
+.container {
+  max-width: 94%;
+}

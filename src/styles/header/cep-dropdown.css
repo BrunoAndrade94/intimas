@@ -2,7 +2,7 @@
 
 .cep-info {
   width: 120px;
-  height: 40px;
+  height: 35px;
   min-width: 120px;
   text-align: left;
   justify-content: flex-start;
@@ -26,12 +26,12 @@
   text-transform: capitalize;
   color: var(--rgba-black7);
   margin-top: 1px;
-  /* line-height: 16px; */
+  line-height: 19px;
 }
 .cep-info .localizacao {
   font-size: 14px;
   font-weight: 700;
   text-transform: capitalize;
   color: var(--cor-secundaria-roxa);
-  line-height: 16px;
+  line-height: 15px;
 }

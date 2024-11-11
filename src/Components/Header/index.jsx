@@ -1,4 +1,5 @@
 import { PESQUISAR_PRODUTO } from "../../assest/var-const";
+import Navigation from "../Navigation";
 import TextBox from "../Others/TextBox";
 import CepDropdown from "./CepDrodown";
 import Logo from "./Logo";
@@ -18,6 +19,7 @@ const Header = () => {
               <TextBox placeHolder={PESQUISAR_PRODUTO} icon={"search"} />
               <UserBox />
             </div>
+            <Navigation />
           </div>
         </div>
       </div>
