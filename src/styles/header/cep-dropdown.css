@@ -1,0 +1,37 @@
+@import url("../config/constants.css");
+
+.cep-info {
+  width: 120px;
+  height: 40px;
+  min-width: 120px;
+  text-align: left;
+  justify-content: flex-start;
+  margin-right: 40px;
+}
+
+.cep-dropdown button {
+  color: var(--cor-principal-lilas);
+  border: 1px solid var(--rgba-black2);
+  border-radius: 7px;
+  padding: 10px 15px;
+}
+
+.cep-dropdown .cep-icone {
+  color: var(--cor-preta-padrao);
+  opacity: 0.7;
+}
+
+.cep-info .sua-localizacao {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: var(--rgba-black7);
+  margin-top: 1px;
+  /* line-height: 16px; */
+}
+.cep-info .localizacao {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--cor-secundaria-roxa);
+  line-height: 16px;
+}

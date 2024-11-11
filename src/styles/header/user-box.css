@@ -1,0 +1,45 @@
+@import url("../config/constants.css");
+
+.user-box {
+  display: flex;
+  /* margin-left: 130px; */
+  /* align-items: center; */
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+  padding: 10px;
+  box-sizing: border-box;
+  /* background-color: #f0f0f0; */
+}
+
+.user-box .icon-box {
+  width: 45px;
+  height: 45px;
+  min-width: 45px;
+  font-size: 20px;
+  margin: 0px 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: var(--cor-secundaria-roxa);
+  border: 1px solid var(--rgba-black1);
+}
+
+.user-cart .price {
+  font-size: 15px;
+  color: var(--rgba-black8);
+  font-weight: 700;
+}
+
+.user-cart .count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 50%;
+  background-color: red;
+  color: aliceblue;
+}

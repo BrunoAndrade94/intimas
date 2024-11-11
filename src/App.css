@@ -3,18 +3,14 @@
   padding: 0px;
 }
 
-@import url("./styles/config/constants.css");
-@import url("./styles/header/top-strip.css");
 @import url("./styles/header/logo.css");
 @import url("./styles/header/header.css");
+@import url("./styles/header/user-box.css");
+@import url("./styles/others/text-box.css");
+@import url("./styles/config/constants.css");
+@import url("./styles/header/top-strip.css");
+@import url("./styles/header/cep-dropdown.css");
 
-/* @import url("./styles/cardTab.css");
-@import url("./styles/allCatTab.css");
-@import url("./styles/searchCEP.css");
-@import url("./styles/headerSearch.css");
-@import url("./styles/locationModal.css");
-@import url("./styles/headerWrapper.css");
-@import url("./styles/navPartCategories.css"); */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 body {
