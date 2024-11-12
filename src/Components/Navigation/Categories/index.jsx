@@ -100,7 +100,7 @@ const Listbox = styled("ul")(
   font-size: 0.875rem;
   box-sizing: border-box;
   padding: 6px;
-  margin: 12px 0;
+  margin: 25px 0;
   min-width: 200px;
   border-radius: 12px;
   overflow: auto;
