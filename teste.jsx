@@ -41,18 +41,13 @@ export const CATEGORIA_CONTATO = {
 };
 
 export const TIPOS_CATEGORIAS = {
-  name: "Todas Categorias",
-  icon: "allCategories",
-  goTo: "/",
-  categories: [
-    // home: "Início",
-    CATEGORIA_PROMOCAO.name,
-    CATEGORIA_MAIS_VENDIDOS.name,
-    CATEGORIA_CONJUTOS.name,
-    CATEGORIA_MODA_PRAIA.name,
-    CATEGORIA_CONTATO.name,
-    // CATEGORIA_SUTIA.name,
-    // modaSex: "Moda Sex",
-    // calcinhas: "Calcinhas",
-  ],
+  home: "Início",
+  sutias: CATEGORIA_SUTIA.name,
+  contato: CATEGORIA_CONTATO.name,
+  promocao: CATEGORIA_PROMOCAO.name,
+  conjuntos: CATEGORIA_CONJUTOS.name,
+  modaPraia: CATEGORIA_MODA_PRAIA.name,
+  maisVendidos: CATEGORIA_MAIS_VENDIDOS.name,
+  // modaSex: "Moda Sex",
+  // calcinhas: "Calcinhas",
 };

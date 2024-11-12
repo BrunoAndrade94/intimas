@@ -10,6 +10,7 @@
 @import url("./styles/config/constants.css");
 @import url("./styles/header/top-strip.css");
 @import url("./styles/header/cep-dropdown.css");
+@import url("./styles/navigation/categories.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
@@ -22,42 +23,27 @@ body {
   background: var(--cor-principal-lilas);
 }
 
+@media (min-width: 1300px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1200px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 .container {
-  max-width: 93%;
-}
-
-.valor-e-prazo {
-  margin-bottom: 2%;
-}
-
-.sub-category {
-  font-size: 30px;
-  position: absolute;
-  top: 100%;
-  left: 0%;
-  min-width: 300px;
-}
-
-.categories svg {
-  margin-right: 10px;
-  font-size: 20px;
-  color: var(--cor-secundaria-roxa);
-}
-
-.categories .categories-name {
-  font-size: 15px;
-  font-weight: 100;
-}
-
-.list-categories {
-  display: flex;
-}
-
-.category {
-  margin-right: 1rem;
-}
-
-.menu-item:focus {
-  color: var(--cor-secundaria-roxa);
-  font-weight: 800;
+  max-width: 90%;
 }

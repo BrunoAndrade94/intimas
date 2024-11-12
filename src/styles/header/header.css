@@ -3,3 +3,8 @@
   height: auto;
   padding: 15px 0px;
 }
+
+.main-header {
+  border-bottom: 1px solid var(--rgba-black1);
+  padding-bottom: 2%;
+}

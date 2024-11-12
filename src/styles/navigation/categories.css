@@ -1,0 +1,27 @@
+@import url("../config/constants.css");
+
+.sub-category {
+  font-size: 30px;
+  position: absolute;
+  top: 100%;
+}
+
+.categories svg {
+  margin-right: 5px;
+  font-size: 20px;
+  color: var(--cor-secundaria-roxa);
+}
+
+.categories .categories-name {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.list-categories {
+  display: flex;
+}
+
+.menu-item:focus {
+  color: var(--cor-principal-lilas);
+  font-weight: 600;
+}

@@ -11,7 +11,7 @@ import { CiViewList } from "react-icons/ci";
 import { FaCheck } from "react-icons/fa";
 import { GiCaltrops } from "react-icons/gi";
 import { IoWomanOutline } from "react-icons/io5";
-import { MdOutlineContactSupport } from "react-icons/md";
+import { MdOutlineContactSupport, MdOutlineDensitySmall } from "react-icons/md";
 import { PiPersonSimpleSwim, PiPlusBold } from "react-icons/pi";
 import { TbShoppingCartPlus } from "react-icons/tb";
 import { TfiMoney } from "react-icons/tfi";
@@ -65,6 +65,7 @@ const iconMap = {
   conjunto: <GiCaltrops />,
   maisVendidos: <PiPlusBold />,
   promo: <TfiMoney />,
+  allCategories: <MdOutlineDensitySmall />,
 };
 
 const blue = {
@@ -107,13 +108,13 @@ const Listbox = styled("ul")(
   background: ${theme.palette.mode === "dark" ? grey[900] : "#fff"};
   border: 1px solid ${theme.palette.mode === "dark" ? grey[700] : grey[200]};
   color: ${theme.palette.mode === "dark" ? grey[300] : grey[900]};
-  box-shadow: 0px 4px 30px ${theme.palette.mode === "dark" ? grey[900] : grey[200]};
+  box-shadow: 0px 9px 30px ${theme.palette.mode === "dark" ? grey[900] : grey[200]};
   z-index: 1;
 
   .closed & {
     opacity: 0;
     transform: scale(0.95, 0.8);
-    transition: opacity 200ms ease-in, transform 200ms ease-in;
+    transition: opacity 200ms ease-in, transform 400ms ease-in;
   }
   
   .open & {
@@ -162,16 +163,11 @@ const MenuItem = styled(BaseMenuItem)(
   list-style: none;
   padding: 8px;
   border-radius: 8px;
-  cursor: default;
+  cursor: pointer;
   user-select: none;
 
   &:last-of-type {
     border-bottom: none;
-  }
-
-  &:focus {
-    outline: 3px solid ${theme.palette.mode === "dark" ? blue[600] : blue[200]};
-    background-color: ${theme.palette.mode === "dark" ? grey[800] : grey[100]};
   }
 
   &.${menuItemClasses.disabled} {
@@ -186,23 +182,17 @@ const MenuButton = styled(BaseMenuButton)(
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 1.5;
-  padding: 8px 16px;
+  padding: 0px 10px;
   border-radius: 8px;
   color: white;
-  transition: all 150ms ease;
+  transition: all 200ms ease;
   cursor: pointer;
   background: ${theme.palette.mode === "dark" ? grey[900] : "#fff"};
-  border: 1px solid ${theme.palette.mode === "dark" ? grey[700] : grey[200]};
+  border: 1px solid rgba(0, 0, 0, 0.0);
   color: ${theme.palette.mode === "dark" ? grey[200] : grey[900]};
-  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
 
   &:hover {
-    background: ${theme.palette.mode === "dark" ? grey[800] : grey[50]};
-    border-color: ${theme.palette.mode === "dark" ? grey[600] : grey[300]};
-  }
-
-  &:active {
-    background: ${theme.palette.mode === "dark" ? grey[700] : grey[100]};
+	color: var(--cor-principal-lilas);
   }
 
   &:focus-visible {

@@ -1,9 +1,9 @@
 @import url("../config/constants.css");
 
 .cep-info {
-  width: 120px;
-  height: 35px;
-  min-width: 120px;
+  width: 100px;
+  height: 30px;
+  min-width: 100px;
   text-align: left;
   justify-content: flex-start;
   margin-right: 40px;
@@ -26,7 +26,7 @@
   text-transform: capitalize;
   color: var(--rgba-black7);
   margin-top: 1px;
-  line-height: 19px;
+  line-height: 15px;
 }
 .cep-info .localizacao {
   font-size: 14px;
