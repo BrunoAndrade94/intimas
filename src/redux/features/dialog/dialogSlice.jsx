@@ -6,19 +6,19 @@ export const dialogSlice = createSlice({
     isOpen: false,
   },
   reducers: {
-    openDialogCEP: (state) => {
+    openCepDialog: (state) => {
       state.isOpen = true;
     },
-    closeDialogCEP: (state) => {
+    closeCepDialog: (state) => {
       state.isOpen = false;
     },
-    flagDialogCEP: (state) => {
+    flagCepDialog: (state) => {
       state.isOpen = !state.isOpen;
     },
   },
 });
 
-export const { openDialogCEP, closeDialogCEP, flagDialogCEP } =
+export const { openCepDialog, closeCepDialog, flagCepDialog } =
   dialogSlice.actions;
 
 export const dialogReducer = dialogSlice.reducer;

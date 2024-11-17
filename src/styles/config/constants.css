@@ -2,7 +2,10 @@
   --cor-principal-lilas: #ee82ee;
   --cor-secundaria-roxa: #8a2be2;
 
-  --rgba-secundaria-roxa9: rgba(138, 43, 226, 0.9);
+  --rgba-secundaria1: rgba(138, 43, 226, 0.1);
+  --rgba-secundaria7: rgba(138, 43, 226, 0.7);
+  --rgba-secundaria8: rgba(138, 43, 226, 0.8);
+  --rgba-secundaria9: rgba(138, 43, 226, 0.9);
 
   /* --cor-principal: #d8595a; */
   /* --cor-principal: #8e00a3; */
@@ -26,4 +29,7 @@
   --rgba-black7: rgba(0, 0, 0, 0.7);
   --rgba-black8: rgba(0, 0, 0, 0.8);
   --rgba-black9: rgba(0, 0, 0, 0.9);
+
+  --max-width: 700px;
+  --min-width: 700px;
 }

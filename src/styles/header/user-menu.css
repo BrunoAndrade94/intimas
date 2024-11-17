@@ -1,0 +1,8 @@
+.user-menu {
+  display: flex;
+  /* text-align: end; */
+  align-items: center;
+  padding: 5px;
+  margin: 50px;
+  /* margin-right: 50px; */
+}

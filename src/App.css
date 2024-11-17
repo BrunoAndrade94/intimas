@@ -3,12 +3,18 @@
   padding: 0px;
 }
 
+@import url("./styles/pages/home.css");
 @import url("./styles/header/logo.css");
+@import url("./styles/header/menu.css");
 @import url("./styles/header/header.css");
 @import url("./styles/header/user-box.css");
 @import url("./styles/others/text-box.css");
+@import url("./styles/header/user-menu.css");
 @import url("./styles/config/constants.css");
+@import url("./styles/config/media-kit.css");
 @import url("./styles/header/top-strip.css");
+@import url("./styles/header/drop-menu.css");
+@import url("./styles/header/user-avatar.css");
 @import url("./styles/header/cep-dropdown.css");
 @import url("./styles/navigation/categories.css");
 
@@ -21,20 +27,11 @@
 body {
   font-family: "Lato", sans-serif;
   font-size: 14px;
+  /* width: 100%; */
 }
 
 .background-principal {
   background: var(--cor-principal-lilas);
-}
-
-@media (min-width: 1300px) {
-  .container,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl {
-    max-width: 1200px;
-  }
 }
 
 ::-webkit-scrollbar {
@@ -42,14 +39,10 @@ body {
   height: 8px;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #ccc;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
 .container {
   max-width: 90%;
+}
+
+.valor-e-prazo {
+  margin-bottom: 2%;
 }

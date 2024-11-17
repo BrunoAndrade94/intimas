@@ -1,18 +1,16 @@
-import { Button } from "@mui/material";
-import { FaCheck } from "react-icons/fa";
-import { IoSearchOutline } from "react-icons/io5";
-const TextBox = ({ placeHolder, icon = "default" }) => {
+import { IconButton } from "@mui/material";
+import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
+import * as React from "react";
+import { CiSearch } from "react-icons/ci";
+
+export default function TextBox() {
   return (
-    <div className="text-box">
-      <input type="text" placeholder={placeHolder}></input>
-      <Button className="button-box">{iconTextBox[icon]}</Button>
-    </div>
+    <Box className="text-box" component="form" autoComplete="on">
+      <TextField size="small" label="Produtos..." className="label-text-box" />
+      <IconButton size="small" className="icon-text-box">
+        <CiSearch />
+      </IconButton>
+    </Box>
   );
-};
-
-const iconTextBox = {
-  default: <FaCheck />,
-  search: <IoSearchOutline />,
-};
-
-export default TextBox;
+}

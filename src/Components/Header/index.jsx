@@ -1,30 +1,13 @@
-import { PESQUISAR_PRODUTO } from "../../assest/var-const";
-import Navigation from "../Navigation";
 import TextBox from "../Others/TextBox";
-import CepDropdown from "./CepDrodown";
-import Logo from "./Logo";
-import TopStrip from "./TopStrip";
-import UserBox from "./UserBox";
+import Menu from "./Menu";
+import MenuUser from "./UserMenu";
 
-const Header = () => {
+export default function Header() {
   return (
-    <header className="main-header">
-      <TopStrip />
-      <div className="header">
-        <div className="container">
-          <div className="row">
-            <Logo />
-            <div className="div-cep col-sm-10 d-flex align-items-center">
-              <CepDropdown />
-              <TextBox placeHolder={PESQUISAR_PRODUTO} icon={"search"} />
-              <UserBox />
-            </div>
-          </div>
-        </div>
-      </div>
-      <Navigation />
-    </header>
+    <div className="main-header">
+      <Menu />
+      <TextBox />
+      <MenuUser />
+    </div>
   );
-};
-
-export default Header;
+}

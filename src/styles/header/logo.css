@@ -1,9 +1,16 @@
 .logo {
   display: flex;
   align-items: center;
+  padding-right: 40px;
+  /* background-color: red; */
 }
 
-.logo img {
-  width: 100%;
-  margin-left: 5%;
+.logo .image-desktop {
+  width: 140px;
+  height: auto;
+}
+
+.logo .image-mobile {
+  width: 40px;
+  height: 40px;
 }

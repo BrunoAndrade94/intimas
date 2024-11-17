@@ -1,11 +1,33 @@
-import { Button } from "@mui/base";
+import { Button } from "@mui/material";
+import React from "react";
 
-const MyButton = ({ placeHolder }) => {
+const MyButton = ({
+  label = null,
+  color = "info",
+  onClick,
+  variant = variantOptions.default,
+  className,
+  iconOnly = false,
+}) => {
   return (
-    <div className="button">
-      <Button>{placeHolder}</Button>
-    </div>
+    <>
+      <Button
+        className={className}
+        color={color}
+        variant={variantOptions[variant]}
+        onClick={onClick}
+        style={{ borderRadius: "50px" }}
+        // endIcon={null}
+        // startIcon={null}
+      >
+        <span className="my-button-label">{label}</span>
+      </Button>
+    </>
   );
+};
+
+const variantOptions = {
+  default: "info",
 };
 
 export default MyButton;

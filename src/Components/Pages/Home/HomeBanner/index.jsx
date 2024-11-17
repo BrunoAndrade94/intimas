@@ -1,3 +1,5 @@
+import Slider from "react-slick";
+
 const HomeBanner = () => {
   var settings = {
     dots: true,
@@ -8,10 +10,12 @@ const HomeBanner = () => {
   };
   return (
     <div className="home-banner">
-      <div className="row">
-        <div className="col-md-3"></div>
-        <div className="col-md-7"></div>
-      </div>
+      <Slider {...settings}>
+        <div className="item">
+          <div className="col-md-3"></div>
+          <div className="col-md-7"></div>
+        </div>
+      </Slider>
     </div>
   );
 };

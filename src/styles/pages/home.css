@@ -1,0 +1,7 @@
+@import url("../config/constants.css");
+
+.home {
+  width: 100%;
+  height: 100dvh;
+  background-color: var(--cor-secundaria-roxa);
+}
